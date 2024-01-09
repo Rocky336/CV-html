@@ -41,10 +41,10 @@ body{
 .content{
     position: absolute;
     display: block;
-    height: 95%;
+    height: 90%;
     width: 45%;
     left: 40%;
-    top: 5%;
+    top: 8%;
     text-align: left;
 }
 
@@ -79,24 +79,65 @@ body{
 }
 
 .posizione{
-    position: relative;
-    background: url(./Images/pos.jpg) 0% 50% no-repeat;
+    background: url(./Images/pos.svg) 0% 50% no-repeat;
     background-size: 1em;
 }
 .email{
-    position: relative;
-    background: url(./Images/mail.png) 0% 50% no-repeat;
+    background: url(./Images/mail.svg) 0% 50% no-repeat;
     background-size: 1em;
 }
 .numero{
-    position: relative;
-    background: url(./Images/phone.png) 0% 50% no-repeat;
+    background: url(./Images/phone.svg) 0% 50% no-repeat;
     background-size: 1em;
 }
 
-.presentazione{
-    white-space: pre-wrap;
+.testo_contatti{
+    text-indent: 8%;
+    font-size: .9em;
 }
-.istruzione{
-    white-space: pre-wrap;
+
+.preline{
+    white-space: pre-line;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.pre{
+    white-space: pre;
+}
+
+.titoletto{
+    font-size: larger;
+}
+
+.leftbar_container{
+    display: block;
+    border-left-style: solid;
+    border-left-color: #283B83;
+    text-align: left;
+}
+
+.blue{
+    color: #283B83;
+}
+
+.dot{
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    padding-top: 1em;
+    background-color: #283B83;
+    border-radius: 50%;
+    right: .54rem;
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}
+
+.lightweight{
+    color: rgb(234 234 234);
 }
