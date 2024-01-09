@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #484848;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    left: 65%;
+    width: 15%;
+    top: 1%;
+}
+
+.me{
+    display: block;
+    position: relative;
+    width: 30%;
+    padding-top: 30%;
+    top: 8%;
+    left: 35%;
+
+    background: url(./Images/ioquandohtml.jpg) 50% 50% no-repeat;
+    background-size: 200%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(182, 181, 178);
+    border-radius: 50%;
+}
+
+.banner{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 30%;
+    left: 5%;
+    background-color: rgb(245, 245, 245);
+}
+
+.content{
+    position: absolute;
+    display: block;
+    height: 95%;
+    width: 45%;
+    left: 40%;
+    top: 5%;
+    text-align: left;
+}
+
+.nome{
+    display: block;
+    position: relative;
+    top: 10%;
+    font-weight: bolder;
+    font-size:larger;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.nazionalita{
+    display: block;
+    position: relative;
+    top: 13%;
+    font-size: smaller;
+}
+
+.contatti{
+    display: block;
+    position: relative;
+    top: 18%;
+}
+
+.contatti{
+    text-align: left;
+    left: 10%;
+}
+
+.posizione{
+    position: relative;
+    background: url(./Images/pos.jpg) 0% 50% no-repeat;
+    background-size: 1em;
+}
+.email{
+    position: relative;
+    background: url(./Images/mail.png) 0% 50% no-repeat;
+    background-size: 1em;
+}
+.numero{
+    position: relative;
+    background: url(./Images/phone.png) 0% 50% no-repeat;
+    background-size: 1em;
+}
+
+.presentazione{
+    white-space: pre-wrap;
+}
+.istruzione{
+    white-space: pre-wrap;
+}
